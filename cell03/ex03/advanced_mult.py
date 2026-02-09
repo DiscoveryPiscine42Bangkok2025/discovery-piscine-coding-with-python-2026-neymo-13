@@ -2,7 +2,6 @@
 
 import sys
 
-# If there is any argument, print "none"
 if len(sys.argv) != 1:
     print("none")
 else:
@@ -15,3 +14,4 @@ else:
             j += 1
         print()
         i += 1
+
