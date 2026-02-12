@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from checkmate import checkmate
 
 def main():
@@ -9,10 +7,6 @@ def main():
 			..P.
 			....\
 			"""
-	# board = """\
-	# 		..
-	# 		.K\
-	# 		"""
 	checkmate(board)
 
 if __name__ == "__main__":

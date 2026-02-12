@@ -1,5 +1,8 @@
 def checkmate(board_string):
 	lines = board_string.strip().split()
+	if not lines:
+		print("Error")
+		return
 	board = [list(line) for line in lines]
 	size = len(board)
 
