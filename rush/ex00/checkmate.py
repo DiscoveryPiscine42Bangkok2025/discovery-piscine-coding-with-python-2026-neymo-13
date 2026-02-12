@@ -93,7 +93,7 @@ def check_line(ene_pos, king_pos, board, rook_like):
 	while 0 <= r < n and 0 <= c < n:
 		if (r, c) == (kr, kc):
 			return True
-		if board[r][c] in "KPBRQ":
+		if board[r][c] in "PBRQ":
 			break
 		r += step_row
 		c += step_col
